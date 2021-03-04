@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.pmt, .pmb{
+    display: none;
+}
+.pct{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    margin: 80px;
+    font-family: 'spartan';
+}
+.up{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 50%;
+}
+.left h2{
+    color: #502050;
+    font-size: 40px;
+
+}
+.left p{
+    margin-top: 20px;
+}
+
+.right{
+    width: 50%;
+}
+.rating{
+    display: flex;
+    background: #F7F2F7;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 600px;
+    border-radius: 10px;
+}
+.rating p{
+    margin-left: 10px;
+    color: #502050;
+    font-weight: 600;
+    font-size: 13px;
+}
+.b{
+   margin-left: 30px; 
+}
+.c{
+    margin-left: 60px;
+}
+.star img{
+    padding-left: 10px;
+}
+
+.down{
+    display: flex;
+    
+}
+.profile{
+    background: #502050;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    height: fit-content;
+}
+.pr2{
+    margin-top: 20px;
+}
+
+.pr3{
+    margin-top: 40px;
+}
+.profile img{
+    border-radius: 50%;
+    width: 40px;
+
+}
+
+.upbox{
+    display: flex;
+}
+
+.name{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.job{
+    color: #e772c2;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.profile .pp{
+    margin-top: 10px;
+    font-size: 14.5px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+.pcb, .pct{
+    position: absolute;
+    z-index: -1;
+}
+
+.shishir{
+    color: #502050;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'spartan';
+}
+
+
+
+@media (max-width: 670px){
+    .pmb, .pmt{
+        display: flexbox;
+    }
+
+    .container{
+        margin:40px;
+        
+    }
+   
+    .up{
+        display: inline;
+    }
+    .left{
+        width: 100%;
+        
+    }
+    .left h2{
+        padding-top: 40px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .left p{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .rating{
+        width: 400px;
+        
+    }
+    .b, .c{
+        margin-left: 0;
+    }
+
+    .down{
+        display: inline;
+    }
+    .pr1{
+        margin-top: 40px;
+    }
+.pr2, .pr3{
+    margin-top: 10px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
